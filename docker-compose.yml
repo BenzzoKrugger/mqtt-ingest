@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: mqtt-ingest
+    restart: unless-stopped
+
+    env_file:
+    - .env
+
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
