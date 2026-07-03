@@ -249,14 +249,3 @@ outside/temperature -> {'value': 22.5, 'battery': 4.05}
 * MQTT broker (Mosquitto recommended)
 * InfluxDB 1.8
 * Docker (optional)
-
----
-
-## Dependencies
-
-* paho-mqtt
-* influxdb
-* python-dotenv
-
----
-
